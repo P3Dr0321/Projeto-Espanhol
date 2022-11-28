@@ -7,11 +7,13 @@ h1 {
     font-size: 40px;
     color: rgb(0, 0, 0);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 70px;
 }
 
 h2 {
     font-size: 35px;
     color: rgb(0, 0, 0);
+    text-align: center;
 }
 
 p {
@@ -25,7 +27,7 @@ p {
 
 nav li {
     display: inline;
-    margin-left: 150px;
+    margin-left: 160px;
     color: rgb(255, 255, 255);
 }
 
@@ -37,20 +39,41 @@ ul {
 
 img {
     border: 5px solid rgb(255, 255, 255);
-    padding-top: 50px;
-    margin: 60px;
+    margin: 30px;
 }
 
 
 .Galeano {
-    position: fixed;
+    position: relative;
+    left: 25vw;
+    bottom: 50px;
 }
 
 
 header {
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(118, 118, 118, 0.87);
     width: 100%;
     top: 0;
     left: 0;
     height: 60px;
+    position: absolute;
+}
+
+.galeano2 {
+    position: relative;
+    left: 2vw;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+
+
+
+
+
+
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
 }
