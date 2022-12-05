@@ -45,8 +45,10 @@ img {
 
 .Galeano {
     position: relative;
-    left: 25vw;
-    bottom: 50px;
+    left: 28vw;
+    bottom: 30px;
+    border: 3px solid rgb(0, 0, 0);
+
 }
 
 
@@ -65,10 +67,23 @@ header {
     border: 5px solid rgb(0, 0, 0);
 }
 
+.textocapa {
+    display: inline-block;
+    position: absolute;
+    left: 370px;
+    text-align: center;
+}
 
+.integracao {
+    position: relative;
+    bottom: 30px;
+}
 
-
-
+.avatar {
+    position: relative;
+    bottom: 290px;
+    left: 600px;
+}
 
 
 
